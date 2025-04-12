@@ -1,0 +1,21 @@
+[project]
+name = "titanic-survival-prediction"
+version = "0.1.0"
+description = "Titanic Survival Prediction using various ML models"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.3",
+    "pandas>=2.2.3",
+    "plotly>=6.0.0",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "streamlit>=1.43.2",
+]
+
+[tool.pip]
+compile = {all-extras = true}
+
+[tool.setuptools]
+packages = ["titanic_survival"]
